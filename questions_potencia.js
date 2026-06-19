@@ -112,7 +112,7 @@ var questionBank = [
       "El tiempo que tarda la bobina en alcanzar el valor máximo.",
       "El tiempo en que la tensión en la bobina es cero."
     ],
-    "correct": 3,
+    "correct": 0,
     "block": 2
   },
   {

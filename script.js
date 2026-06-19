@@ -48,8 +48,13 @@ function selectSubject(subject) {
     } else if (subject === 'potencia') {
         currentSubjectName = "Electrónica de Potencia";
         currentFile = "questions_potencia.js";
+    } else if (subject === 'subestaciones') {
+        currentSubjectName = "Subestaciones";
+        currentFile = "questions_subestaciones.js";
+    } else if (subject === 'subterraneas') {
+        currentSubjectName = "Subterráneas";
+        currentFile = "questions_subterraneas.js";
     }
-
     // Cambiar de pantalla
     document.getElementById("startScreen").style.display = "none";
     document.getElementById("selectedSubjectText").innerText = currentSubjectName;
