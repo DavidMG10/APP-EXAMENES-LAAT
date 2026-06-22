@@ -2662,4 +2662,404 @@ var questionBank = [
     "block": 1,
     "explanation": "Al contar la máquina con un arrollamiento terciario en triángulo cerrado (d5), las corrientes de secuencia homopolar circulantes del secundario se quedan confinadas y se disipan en dicho lazo cerrado por acoplamiento de flujos opuestos, sin transferirse al devanado primario de AT. Además, el desfase de 150° del índice horario afecta a las tensiones, no a las corrientes homopolares."
   },
+{
+    "question": "La tensión nominal en el secundario de un transformador de distribución corresponde al valor de la tensión entre fases cuando no circula corriente por su secundario.",
+    "answers": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct": 0,
+    "block": 1,
+    "explanation": "Cuando no circula corriente por el secundario el transformador está en vacío, instante en el que las tensiones en bornes coinciden exactamente con los valores nominales de la placa de características (que se expresan siempre como tensiones compuestas o de línea fase-fase)."
+  },
+  {
+    "question": "La corriente de cierre de un aparato de maniobra se corresponde con valor eficaz de la corriente máxima que es capaz de establecer en condiciones de servicio.",
+    "answers": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct": 1,
+    "block": 1,
+    "explanation": "La capacidad o poder de cierre/establecimiento nominal de un aparato de maniobra frente a un cortocircuito se expresa y define de forma reglamentaria en valor de cresta (pico), no en valor eficaz."
+  },
+  {
+    "question": "Los seccionadores de puesta a tierra deben tener poder de cierre.",
+    "answers": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct": 0,
+    "block": 1,
+    "explanation": "Los seccionadores de puesta a tierra tienen la obligación de contar con poder de cierre asignado para poder cerrar el circuito de forma totalmente segura ante un cortocircuito accidental (por ejemplo, si se energiza la línea por error estando conectada a tierra), aunque su poder de corte sea nulo."
+  },
+  {
+    "question": "Los seccionadores de tipo pantógrafo requieren menos volumen de envolvente que los de cuchillas giratorias.",
+    "answers": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct": 1,
+    "block": 1,
+    "explanation": "Los seccionadores de tipo pantógrafo reducen drásticamente la superficie en planta (horizontal) requerida en los parques de intemperie, pero debido a su desplazamiento articulado ascendente, ocupan un mayor espacio y volumen en el plano vertical."
+  },
+  {
+    "question": "Los niveles de tensiones soportadas de tipo maniobra son de mayor amplitud que los valores de tensiones de tipo rayo para un mismo valor de tensión más elevada, Um.",
+    "answers": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct": 1,
+    "block": 1,
+    "explanation": "Los ensayos e impulsos tipo rayo determinan los valores de tensión soportada de mayor amplitud absoluta asignados a cualquier material o aislamiento eléctrico."
+  },
+  {
+    "question": "El reglamento europeo de ecodiseño 548/2014 aplicable a transformadores de potencia no es aplicable a los transformadores de distribución de tipo poste.",
+    "answers": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct": 1,
+    "block": 1,
+    "explanation": "La normativa de eficiencia de la Unión Europea incluye explícitamente a los transformadores de tipo poste instalados sobre apoyos aéreos de redes de distribución, fijándoles límites de pérdidas específicos en carga y vacío."
+  },
+  {
+    "question": "Un autoseccionador detecta la corriente de cortocircuito que circula a través de él y abre el circuito.",
+    "answers": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct": 1,
+    "block": 1,
+    "explanation": "El autoseccionador es un aparato de maniobra que detecta y contabiliza los pasos de corriente de falta, pero carece de poder de corte para interrumpir cortocircuitos. Su apertura se realiza mecánicamente solo durante el tiempo muerto (sin tensión) del interruptor de cabecera."
+  },
+  {
+    "question": "Los interruptores automáticos de vacío son los más adecuados para las instalaciones de alta tensión de transporte.",
+    "answers": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct": 1,
+    "block": 1,
+    "explanation": "La tecnología de interrupción en vacío encuentra su aplicación óptima y masiva en redes de Media Tensión (distribución). En tensiones extremas de transporte (Alta Tensión como 220 kV o 400 kV), el medio de extinción estándar sigue siendo el SF6 o alternativas ecológicas de gas denso debido a la saturación dieléctrica del vacío."
+  },
+  {
+    "question": "Los transformadores de distribución bitensión de potencia superior a 400 kVA deben tener preferentemente un índice horario Dyn11.",
+    "answers": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct": 0,
+    "block": 1,
+    "explanation": "El grupo de conexión normalizado y preferente para transformadores de distribución de potencias comerciales elevadas de media tensión es el Dyn11, ya que el triángulo primario equilibra las cargas y permite disponer de neutro accesible en la estrella secundaria."
+  },
+  {
+    "question": "Los fusibles de expulsión protegen mejor que los fusibles limitadores frente a sobrecargas de corta duración.",
+    "answers": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct": 1,
+    "block": 1,
+    "explanation": "Ninguno de los dos tipos de fusibles de media tensión es apto ni está diseñado para proteger de manera selectiva frente a sobrecargas. Los fusibles limitadores son superiores a los de expulsión, pero estrictamente en el despeje ultrarrápido de corrientes elevadas de cortocircuito."
+  },
+  {
+    "question": "La temperatura de congelación del aceite de tipo vegetal utilizado en los transformadores de distribución es inferior a la del aceite mineral.",
+    "answers": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct": 1,
+    "block": 1,
+    "explanation": "La temperatura de congelación de los aceites vegetales (ésteres naturales) es más alta (menos negativa, en torno a -15°C a -20°C) que la de los aceites minerales (que descienden por debajo de los -30°C o -40°C), lo que significa que el aceite vegetal se congela antes."
+  },
+  {
+    "question": "El valor de la corriente nominal de un fusible limitador debe ser mayor a la corriente de magnetización que aparece durante la energización del transformador que protege.",
+    "answers": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct": 1,
+    "block": 1,
+    "explanation": "La corriente transitoria de inserción (inrush) alcanza de 12 a 14 veces la nominal de la máquina. El calibre comercial del fusible se elige coordinando que su curva térmica de fusión quede por encima de este punto de inrush en el tiempo, resultando habitualmente en una corriente nominal menor que dicho pico puro."
+  },
+  {
+    "question": "La corriente nominal de un seccionador de puesta a tierra debe ser, al menos, igual a la del interruptor de la línea a la que se conecta.",
+    "answers": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct": 1,
+    "block": 1,
+    "explanation": "Dado que el seccionador de puesta a tierra permanece abierto en condiciones normales de servicio y no conduce corriente de carga continua, su intensidad nominal continua puede ser cero. Lo que debe ser igual o superior es su capacidad asignada de corta duración para soportar cortocircuitos térmicos y mecánicos."
+  },
+  {
+    "question": "El fusible limitador de la celda de protección de un centro de transformación (CT) debe elegirse para que proteja frente a cortocircuitos que se produzcan en la línea conectada al lado de baja tensión del transformador, independientemente de la longitud de la línea.",
+    "answers": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct": 1,
+    "block": 1,
+    "explanation": "A mayor longitud del tendido de baja tensión, mayor es la impedancia del bucle de cable. Esto atenúa la intensidad de un cortocircuito lejano en BT, provocando que la corriente reflejada en el primario sea tan baja que quede fuera de la zona de fusión del fusible de media tensión de la celda."
+  },
+  {
+    "question": "Los transformadores de distribución de llenado integral deben disponer de dos mirillas de nivel de aceite, una a cada lado del transformador.",
+    "answers": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct": 1,
+    "block": 1,
+    "explanation": "Los transformadores herméticos de llenado integral no tienen depósito de expansión (conservador) ya que las variaciones de volumen del fluido son absorbidas por la elasticidad de las propias aletas de la cuba, por lo que carecen por completo de mirillas de nivel."
+  },
+  {
+    "question": "La tensión soportada entre contactos abiertos de un interruptor de vacío es linealmente proporcional a la distancia entre ellos.",
+    "answers": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct": 1,
+    "block": 1,
+    "explanation": "La rigidez dieléctrica en vacío se rige por la ley de Paschen, cuya curva característica demuestra que la tensión soportada no mantiene una relación lineal pura con la distancia de separación de los electrodos, sino que tiende a curvarse y saturarse a partir de ciertos milímetros."
+  },
+  {
+    "question": "La impedancia de cortocircuito indicada en la placa de características de un transformador de potencia se refiere al valor que presenta para la toma de regulación de menor nivel de tensión.",
+    "answers": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct": 1,
+    "block": 1,
+    "explanation": "La impedancia de cortocircuito asignada que figura de forma nominal en la placa de características de la máquina está referida estrictamente a la toma central o principal de regulación."
+  },
+  {
+    "question": "La viscosidad de los aceites vegetales utilizados en los transformadores de distribución es mayor a la viscosidad de los aceites minerales.",
+    "answers": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct": 0,
+    "block": 1,
+    "explanation": "Los ésteres naturales (aceites vegetales) presentan un coeficiente de viscosidad cinemática a 40°C situado entre 30-40 mm²/s, valor notablemente superior al del aceite mineral convencional de transformadores (8-12 mm²/s)."
+  },
+  {
+    "question": "Un transformador de potencia de llenado integral de 1250 kVA puede ser utilizado en un centro de transformación.",
+    "answers": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct": 1,
+    "block": 1,
+    "explanation": "Por normativas constructivas de las compañías eléctricas y límites de diseño elástico de las cubas corrugadas, las unidades de llenado integral hermético comunes se fabrican para potencias iguales o inferiores a 1000 kVA. Para 1250 kVA se requiere depósito de expansión."
+  },
+  {
+    "question": "Los transformadores de intensidad que tienen dos arrollamientos secundarios, uno para medida y otro para protección, pueden utilizar el mismo núcleo si se dimensiona para la suma de sus potencias nominales de precisión.",
+    "answers": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct": 1,
+    "block": 1,
+    "explanation": "Un secundario de medida exige un núcleo ferromagnético que sature rápido para blindar los instrumentos, mientras que un secundario de protección requiere un núcleo que no sature ante corrientes de falta elevadas. Consecuentemente, es obligatorio que se bobinen sobre núcleos magnéticos independientes separados."
+  },
+{
+    "question": "Los transformadores YNy+d son los utilizados para cambiar la tensión en la red de transporte (400 kV/230 kV), así como para enlazar éstas con las redes de distribución (132 kV, 66 kV y 45 kV).",
+    "answers": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct": 0,
+    "block": 1,
+    "explanation": "El empleo del arrollamiento terciario en triángulo cerrado (+d) es imperativo en la interconexión de grandes redes de transporte y distribución para ofrecer un camino de baja impedancia a las corrientes homopolares y estabilizar el potencial de neutro."
+  },
+  {
+    "question": "El reglamento europeo 548/2014, que regula las pérdidas de transformadores de potencia, excluye de su aplicación a los transformadores de emergencia para socorrer a una red que ha perdido el suministro.",
+    "answers": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct": 0,
+    "block": 1,
+    "explanation": "El reglamento de ecodiseño de la UE excluye de sus exigencias de pérdidas y eficiencia a las unidades móviles o de emergencia destinadas a dar suministro de forma puramente temporal ante contingencias incidentales de la red."
+  },
+  {
+    "question": "Un transformador de medida de corriente se satura más fácilmente si el valor de la impedancia en su secundario es demasiado pequeño.",
+    "answers": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct": 1,
+    "block": 1,
+    "explanation": "Falso. Un transformador de intensidad trabaja de forma óptima cuanto más baja sea la impedancia de su secundario (idealmente en cortocircuito). La saturación del núcleo ferromagnético se produce precisamente cuanto mayor sea la impedancia conectada."
+  },
+  {
+    "question": "El error compuesto para un transformador 5P10 es superior al 10% cuando la intensidad del primario sobrepasa 5 veces el valor de la intensidad nominal.",
+    "answers": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct": 1,
+    "block": 1,
+    "explanation": "Falso. La designación 5P10 indica de forma normalizada que el error compuesto máximo garantizado es del 5% operando bajo su factor límite de precisión, el cual equivale a 10 veces la intensidad nominal asignada."
+  },
+  {
+    "question": "Los transformadores de medida de intensidad de clase extendida, por ejemplo clase 0,2S, deben medir dentro de los límites de error normalizados para corrientes comprendidas entre el 1% y el 120% de su corriente asignada.",
+    "answers": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct": 0,
+    "block": 1,
+    "explanation": "La letra S certifica normativamente un rango de precisión ampliado. A diferencia de las clases estándares de medida, las clases especiales tipo S garantizan su tolerancia desde el 1% hasta el 120% de la carga nominal."
+  },
+  {
+    "question": "El error compuesto de un transformador de tensión 3P debe garantizar el error de relación de tensión en un 3% dentro del rango de tensiones comprendidas entre el 5% y el valor de su factor de tensión.",
+    "answers": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct": 0,
+    "block": 1,
+    "explanation": "De acuerdo con las especificaciones técnicas internacionales de la norma IEC para transformadores de tensión inductivos destinados a protección, la designación 3P fija un límite estricto de desviación en la relación del 3% dentro de su rango dinámico."
+  },
+  {
+    "question": "Los aceites vegetales utilizados en los transformadores de distribución son fluidos de tipo K.",
+    "answers": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct": 0,
+    "block": 1,
+    "explanation": "Debido a que presentan excelentes propiedades de resistencia térmica y un punto de combustión de alta seguridad contra incendios superior a los 300°C, los ésteres naturales de base vegetal se clasifican legalmente como fluidos clase K."
+  },
+  {
+    "question": "El factor de tensión asignado de un transformador de protección representa la tensión máxima de funcionamiento de transformador durante un tiempo determinado.",
+    "answers": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct": 0,
+    "block": 1,
+    "explanation": "El factor de tensión define el múltiplo numérico de la tensión nominal asignada (por ejemplo, 1,5 o 1,9) que el transformador es capaz de soportar de forma segura en régimen temporal prolongado (en ensayos normalizados de 30s o 120s) ante fallas en la red."
+  },
+  {
+    "question": "El factor límite de precisión de un transformador de medida de corriente debe ser lo más alto posible.",
+    "answers": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct": 1,
+    "block": 1,
+    "explanation": "El factor límite de precisión (FLP) pertenece exclusivamente al diseño de los transformadores de protección. En las unidades de medida interesa controlar el factor de seguridad (FS), buscando que este sea bajo para proteger los instrumentos."
+  },
+  {
+    "question": "La potencia de cortocircuito, Scc, de una red trifásica viene dada por raíz de tres veces la tensión más elevada de la red, Us, multiplicada por la corriente de cortocircuito en el punto de la red.",
+    "answers": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct": 1,
+    "block": 1,
+    "explanation": "Falso. La potencia de cortocircuito inicial Scc se calcula multiplicando la raíz de tres por la tensión nominal del sistema (Un), no por la tensión más elevada del material (Us)."
+  },
+  {
+    "question": "La sobretensión temporal en el lado de media tensión de una red de distribución depende del valor de la resistencia de puesta a tierra del neutro del transformador de distribución del centro de transformación que alimenta.",
+    "answers": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct": 1,
+    "block": 1,
+    "explanation": "Falso. La sobretensión temporal por defecto fase-tierra en la red depende de la configuración de la puesta a tierra del neutro del transformador que alimenta a la red en la subestación de cabecera. La puesta a tierra del CT alimentado aguas abajo no altera este cortocircuito."
+  },
+  {
+    "question": "El valor de precisión de un transformador de medida se cumple siempre que esté cargado con una carga inferior a la carga de precisión.",
+    "answers": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct": 1,
+    "block": 1,
+    "explanation": "Falso. Para garantizar que el error se mantenga dentro de los límites normalizados de su clase, la norma IEC exige que la carga real conectada al secundario esté comprendida en un rango específico (típicamente entre el 25% y el 100% de su potencia de precisión nominal), no bastando con que sea simplemente inferior."
+  },
+  {
+    "question": "La clase de precisión de un transformador de tensión de protección 3P debe cumplirla para tensiones comprendidas entre el 5% y el factor de tensión.",
+    "answers": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct": 0,
+    "block": 1,
+    "explanation": "Es correcto. Las especificaciones internacionales obligan a que los transformadores de tensión destinados a alimentar relés de protección (como la clase 3P) mantengan su precisión garantizada dentro del rango que abarca desde el 5% de la tensión nominal hasta el valor extremo fijado por su factor de tensión asignado."
+  },
+  {
+    "question": "El factor de tensión asignado de un transformador de tensión no puede ser superior al 20% de su tensión nominal.",
+    "answers": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct": 1,
+    "block": 1,
+    "explanation": "Falso. Los factores de tensión asignados normalizados para transformadores destinados a redes con neutro aislado o puestas a tierra por impedancia alcanzan múltiplos de 1,5 o 1,9 veces la tensión nominal (es decir, incrementos del 50% o 90%), superando holgadamente el límite del 20% indicado."
+  },
+  {
+    "question": "El factor límite de precisión es un parámetro característico de los transformadores de medida de corriente.",
+    "answers": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct": 1,
+    "block": 1,
+    "explanation": "Falso. El factor límite de precisión (FLP) es un parámetro característico exclusivo de los transformadores de protección. En los de medida, el parámetro equivalente que regula la saturación es el factor de seguridad (FS)."
+  },
+  {
+    "question": "Para medir la tensión homopolar de la red se disponen los secundarios de los transformadores de tensión conectados en estrella.",
+    "answers": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct": 1,
+    "block": 1,
+    "explanation": "Falso. Para obtener y medir la tensión homopolar residual (3V0) útil para la detección de faltas a tierra, los arrollamientos secundarios secundarios de los transformadores de tensión deben conectarse de forma obligatoria en triángulo abierto, no en estrella."
+  },
+  {
+    "question": "La potencia límite térmica de un transformador de medida es siempre superior a la potencia de precisión.",
+    "answers": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct": 0,
+    "block": 1,
+    "explanation": "Verdadero. La potencia de precisión define la máxima carga que admite el secundario manteniendo los errores normalizados de su clase. La potencia límite térmica representa la carga máxima continua que puede soportar el aparato desde el punto de vista del calentamiento sin destruir sus aislamientos, valor que es notablemente superior."
+  },
+  {
+    "question": "Los transformadores de corriente de tipo capacitivos utilizan un divisor de corriente y a su salida un transformador inductivo.",
+    "answers": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct": 1,
+    "block": 1,
+    "explanation": "Falso. Los aparatos que emplean esta tecnología son los transformadores de tensión de tipo capacitivo, los cuales incorporan en su circuito primario de alta tensión un divisor de tensión capacitivo (no un divisor de corriente) acoplado a una etapa electromagnética inductiva intermedia."
+  },
+  {
+    "question": "Los transformadores tensión de tipo inductivo disponen de su núcleo en la parte superior y en la parte inferior se dispone las bornas de conexión del arrollamiento de baja tensión.",
+    "answers": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct": 1,
+    "block": 1,
+    "explanation": "Falso. En los diseños convencionales de transformadores inductivos de tensión de alta tensión para exterior, la parte activa pesada (núcleo ferromagnético y arrollamientos) se aloja en la cuba base metálica situada en la parte inferior de la estructura, saliendo el terminal de AT hacia la bornas de la parte superior."
+  },
+  {
+    "question": "Para medir la corriente homopolar de una red se pueden utilizar los secundarios de los tres transformadores de intensidad conectados en triángulo abierto.",
+    "answers": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct": 1,
+    "block": 1,
+    "explanation": "Falso. Para medir la corriente homopolar (3I0) mediante la suma vectorial de las intensidades de las tres fases, se conectan los secundarios de los transformadores de intensidad en paralelo (conexión Holmgreen). El triángulo abierto es una configuración exclusiva de los transformadores de tensión."
+  }
 ];
